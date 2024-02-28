@@ -1,2 +1,2 @@
 # pages
-Pages test.
+Codeberg type pages.

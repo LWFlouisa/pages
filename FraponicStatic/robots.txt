@@ -1,0 +1,17 @@
+User-agent: GPTBot
+Disallow: /BasicDictionary
+Disallow: /MiddleFraponic
+Disallow: /ModernFraponic
+Disallow: /Proto
+
+User-agent: ChatGPT-User
+Disallow: /BasicDictionary
+Disallow: /MiddleFraponic
+Disallow: /ModernFraponic
+Disallow: /Proto
+
+User-agent: CCBot
+Disallow: /BasicDictionary
+Disallow: /MiddleFraponic
+Disallow: /ModernFraponic
+Disallow: /Proto
