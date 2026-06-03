@@ -1,0 +1,12 @@
+# Ignore all files in your novels and comics folders
+docs/
+prose/
+webcomics
+
+# You can also ignore specific file types if needed
+*.css
+*.js
+*.html
+*.md
+*.png
+*.jpg
