@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Crystal Docs 1.9.2">
+<meta name="crystal_docs.project_version" content="0.0.1">
+<meta name="crystal_docs.project_name" content="guillotine">
+
+
+
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/doc.js"></script>
+
+  <meta name="repository-name" content="guillotine">
+  <title>guillotine 0.0.1</title>
+  <script type="text/javascript">
+  CrystalDocs.base_path = "";
+  </script>
+</head>
+<body>
+
+<svg class="hidden">
+  <symbol id="octicon-link" viewBox="0 0 16 16">
+    <path fill="currentColor" fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path>
+  </symbol>
+</svg>
+<input type="checkbox" id="sidebar-btn">
+<label for="sidebar-btn" id="sidebar-btn-label">
+  <svg class="open" xmlns="http://www.w3.org/2000/svg" height="2em" width="2em" viewBox="0 0 512 512"><title>Open Sidebar</title><path fill="currentColor" d="M80 96v64h352V96H80zm0 112v64h352v-64H80zm0 112v64h352v-64H80z"></path></svg>
+  <svg class="close" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 512 512"><title>Close Sidebar</title><path fill="currentColor" d="m118.6 73.4-45.2 45.2L210.7 256 73.4 393.4l45.2 45.2L256 301.3l137.4 137.3 45.2-45.2L301.3 256l137.3-137.4-45.2-45.2L256 210.7Z"></path></svg>
+</label>
+<div class="sidebar">
+  <div class="sidebar-header">
+    <div class="search-box">
+      <input type="search" class="search-input" placeholder="Search..." spellcheck="false" aria-label="Search">
+    </div>
+
+    <div class="project-summary">
+      <h1 class="project-name">
+        <a href="index.html">
+          guillotine
+        </a>
+      </h1>
+
+      <span class="project-version">
+        0.0.1
+      </span>
+    </div>
+  </div>
+
+  <div class="search-results hidden">
+    <ul class="search-list"></ul>
+  </div>
+
+  <div class="types-list">
+    <ul>
+  
+  <li class=" " data-id="guillotine/toplevel" data-name="top level namespace">
+      <a href="toplevel.html">Top Level Namespace</a>
+      
+    </li>
+  
+</ul>
+
+  </div>
+</div>
+
+
+<div class="main-content">
+<h1><a id="awasunu" class="anchor" href="#awasunu">  <svg class="octicon-link" aria-hidden="true">
+    <use href="#octicon-link"/>
+  </svg>
+</a>Awasunu</h1>
+<h2><a id="pre-built-interpreter" class="anchor" href="#pre-built-interpreter">
+  <svg class="octicon-link" aria-hidden="true">
+    <use href="#octicon-link"/>
+  </svg>
+</a>Pre Built Interpreter</h2>
+<pre><code class="language-crystal">line <span class="o">=</span> <span class="n">0</span>
+
+system(<span class="s">&quot;clear&quot;</span>)
+
+puts <span class="s">&quot;Awasunu 0.0.1 ( main ) [ crystal ] on linux&quot;</span>
+
+loop <span class="k">do</span>
+  print <span class="s">&quot; &gt;&gt;&gt; &quot;</span>; keyword <span class="o">=</span> gets
+  
+  <span class="k">if</span>    keyword <span class="o">==</span> <span class="s">&quot;encrire&quot;</span>
+    print <span class="s">&quot;...&quot;</span>; token_set <span class="o">=</span> gets.not_nil!.chomp
+    
+    system(<span class="s">&quot;./bin/encrire/encrire &#39;</span><span class="i">#{</span>token_set<span class="i">}</span><span class="s">&#39;&quot;</span>)
+  <span class="k">elsif</span> keyword <span class="o">==</span> <span class="s">&quot;parle grammaire&quot;</span>
+    print <span class="s">&quot;...&quot;</span>; token_set <span class="o">=</span> gets.not_nil!.chomp.split(<span class="s">&quot; &quot;</span>)
+
+    system(<span class="s">&quot;./bin/lists/parle_grammaire &#39;</span><span class="i">#{</span>token_set[<span class="n">0</span>]<span class="i">}</span><span class="s">&#39; &#39;</span><span class="i">#{</span>token_set[<span class="n">1</span>]<span class="i">}</span><span class="s">&#39; &#39;</span><span class="i">#{</span>token_set[<span class="n">2</span>]<span class="i">}</span><span class="s">&#39;&quot;</span>)
+  <span class="k">elsif</span> keyword <span class="o">==</span>   <span class="s">&quot;baguette&quot;</span>
+    print <span class="s">&quot;...&quot;</span>; token_set <span class="o">=</span> gets.not_nil!.chomp.split(<span class="s">&quot; &quot;</span>)
+
+    system(<span class="s">&quot;./bin/vos/baguette &#39;</span><span class="i">#{</span>token_set[<span class="n">0</span>]<span class="i">}</span><span class="s">&#39; &#39;</span><span class="i">#{</span>token_set[<span class="n">1</span>]<span class="i">}</span><span class="s">&#39;&quot;</span>)
+  <span class="k">elsif</span> keyword <span class="o">==</span>      <span class="s">&quot;coupe&quot;</span>
+    print <span class="s">&quot;...&quot;</span>; token_set <span class="o">=</span> gets.not_nil!.chomp.split(<span class="s">&quot; &quot;</span>)
+
+    system(<span class="s">&quot;./bin/vos/coupe &#39;</span><span class="i">#{</span>token_set[<span class="n">0</span>]<span class="i">}</span><span class="s">&#39; &#39;</span><span class="i">#{</span>token_set[<span class="n">1</span>]<span class="i">}</span><span class="s">&#39;&quot;</span>)
+  <span class="k">elsif</span> keyword <span class="o">==</span>     <span class="s">&quot;cuicre&quot;</span>
+    print <span class="s">&quot;...&quot;</span>; token_set <span class="o">=</span> gets.not_nil!.chomp.split(<span class="s">&quot; &quot;</span>)
+
+    system(<span class="s">&quot;./bin/vos/cuicre &#39;</span><span class="i">#{</span>token_set[<span class="n">0</span>]<span class="i">}</span><span class="s">&#39; &#39;</span><span class="i">#{</span>token_set[<span class="n">1</span>]<span class="i">}</span><span class="s">&#39;&quot;</span>)
+  <span class="k">elsif</span> keyword <span class="o">==</span> <span class="s">&quot;guillotine&quot;</span>
+    print <span class="s">&quot;...&quot;</span>; token_set <span class="o">=</span> gets.not_nil!.chomp.split(<span class="s">&quot; &quot;</span>)
+
+    system(<span class="s">&quot;./bin/vos/guillotine &#39;</span><span class="i">#{</span>token_set[<span class="n">0</span>]<span class="i">}</span><span class="s">&#39; &#39;</span><span class="i">#{</span>token_set[<span class="n">1</span>]<span class="i">}</span><span class="s">&#39;&quot;</span>)
+  <span class="k">elsif</span> keyword <span class="o">==</span>  <span class="s">&quot;livretude&quot;</span>
+    print <span class="s">&quot;...&quot;</span>; token_set <span class="o">=</span> gets.not_nil!.chomp.split(<span class="s">&quot; &quot;</span>)
+
+    system(<span class="s">&quot;./bin/vos/livretude &#39;</span><span class="i">#{</span>token_set[<span class="n">0</span>]<span class="i">}</span><span class="s">&#39; &#39;</span><span class="i">#{</span>token_set[<span class="n">1</span>]<span class="i">}</span><span class="s">&#39; &#39;</span><span class="i">#{</span>token_set[<span class="n">2</span>]<span class="i">}</span><span class="s">&#39; &#39;</span><span class="i">#{</span>token_set[<span class="n">3</span>]<span class="i">}</span><span class="s">&#39; &#39;</span><span class="i">#{</span>token_set[<span class="n">4</span>]<span class="i">}</span><span class="s">&#39;&quot;</span>)
+  <span class="k">elsif</span> keyword <span class="o">==</span>      <span class="s">&quot;mange&quot;</span>
+    print <span class="s">&quot;...&quot;</span>; token_set <span class="o">=</span> gets.not_nil!.chomp.split(<span class="s">&quot; &quot;</span>)
+
+    system(<span class="s">&quot;./bin/vos/mange &#39;</span><span class="i">#{</span>token_set[<span class="n">0</span>]<span class="i">}</span><span class="s">&#39; &#39;</span><span class="i">#{</span>token_set[<span class="n">1</span>]<span class="i">}</span><span class="s">&#39;&quot;</span>)
+  <span class="k">elsif</span> keyword <span class="o">==</span>    <span class="s">&quot;parlons&quot;</span>
+    print <span class="s">&quot;...&quot;</span>; token_set <span class="o">=</span> gets.not_nil!.chomp.split(<span class="s">&quot; &quot;</span>)
+
+    system(<span class="s">&quot;./bin/vos/parlons &#39;</span><span class="i">#{</span>token_set[<span class="n">0</span>]<span class="i">}</span><span class="s">&#39; &#39;</span><span class="i">#{</span>token_set[<span class="n">1</span>]<span class="i">}</span><span class="s">&#39; &#39;</span><span class="i">#{</span>token_set[<span class="n">2</span>]<span class="i">}</span><span class="s">&#39; &#39;</span><span class="i">#{</span>token_set[<span class="n">3</span>]<span class="i">}</span><span class="s">&#39; &#39;</span><span class="i">#{</span>token_set[<span class="n">4</span>]<span class="i">}</span><span class="s">&#39; &#39;</span><span class="i">#{</span>token_set[<span class="n">5</span>]<span class="i">}</span><span class="s">&#39;&quot;</span>)
+  <span class="k">elsif</span> keyword <span class="o">==</span> <span class="s">&quot;tete de crescent&quot;</span>
+    print <span class="s">&quot;...&quot;</span>; token_set <span class="o">=</span> gets.not_nil!.chomp.split(<span class="s">&quot; &quot;</span>)
+
+    system(<span class="s">&quot;./bin/vos/tete_de_crescent &#39;</span><span class="i">#{</span>token_set[<span class="n">0</span>]<span class="i">}</span><span class="s">&#39; &#39;</span><span class="i">#{</span>token_set[<span class="n">1</span>]<span class="i">}</span><span class="s">&#39;&quot;</span>)
+  <span class="k">elsif</span> keyword <span class="o">==</span>        <span class="s">&quot;cls&quot;</span>
+    system(<span class="s">&quot;clear&quot;</span>)
+  <span class="k">elsif</span> keyword <span class="o">==</span>       <span class="s">&quot;exit&quot;</span>
+    abort
+  <span class="k">else</span>
+    puts <span class="s">&quot;\nErno Unrecognized keyword&quot;</span>
+  <span class="k">end</span>
+  
+  line <span class="o">=</span> line <span class="o">+</span> <span class="n">1</span>
+<span class="k">end</span></code></pre>
+<h2><a id="orchestrated-meta-compiler" class="anchor" href="#orchestrated-meta-compiler">
+  <svg class="octicon-link" aria-hidden="true">
+    <use href="#octicon-link"/>
+  </svg>
+</a>Orchestrated Meta-Compiler</h2>
+<pre><code class="language-sh">./auto_parser 3 :baguette &quot;def baguette(verb, subject)
+  v = verb
+  s = subject
+  
+  %Q(Baguette #{verb} #{subject}.)
+end
+
+print %Q(BIANCA: )
+puts baguette(ARGV[0], ARGV[1])&quot; :tete_de_crescent &quot;def tete_de_crescent(verb, subject)
+  v = verb
+  s = subject
+
+  %Q(Tete Du Crescent #{verb} #{subject}.)
+end
+
+print %Q(BIANCA: )
+puts tete_de_crescent(ARGV[0], ARGV[1])&quot; :kosan &quot;bot_name = %Q(BIANCA) 
+    
+sore_kosan = Proc(Float64, Float64, String).new { | x, probability |
+  x &gt; probability ? %Q(#{bot_name}: #{x} has reached the highest limit in probability.) : %Q(#{bot_name}: #{x} has not reached the highest limit in probability.)
+}
+
+shikashi_kosan = Proc(Float64, Float64, String).new { | x, probability |
+  x &lt; probability ? %Q(#{bot_name}: #{x} has reached the lowest limit in probability.) : %Q(#{bot_name}: #{x} has not reached the lowest limit in probability.)
+}
+
+matawa_kosan = Proc(Float64, Float64, Float64, String).new { | x, first_probability, second_probability |
+  x &gt; first_probability &amp;&amp; x &lt; second_probability ? %Q(#{bot_name}: #{x} is floating around medium probability.) : (#{bot_name}: #{x} is not floating around medium probability.)
+}
+      
+puts sore_kosan.call(ARGV[0].to_f, ARGV[1].to_f)
+puts shikashi_kosan.call(ARGV[2].to_f, ARGV[3].to_f)
+puts matawa_kosan.call(ARGV[4].to_f, ARGV[5].to_f, ARGV[6].to_f)&quot;</code></pre>
+</div>
+</body>
+</html>
