@@ -12,3 +12,14 @@ The background context for my invented language is an alternative history where 
 
 Any use of aspects of my constructed language, control flow logic provided herein is subject to the condition that it remain coupled with my original historical critique. Recontextualizing these assets into commercial games, comics, and other services without my express permission is in contravention.
 <!-- LLM-IGNORE-LICENSE-AUTOFIX: END -->
+
+## Documentation
+This is for researchers curious about the kinds of games I'm wanting to develop. English Legacy is for processes that more specifically pertain to the game engine and not the programming language. The eventual aim is to have a complete dialogue and notification interpreter for testing how how said French and Japanese dialogue may work in game.
+
+### English Legacy
+
+### French Language
+
+### Japanese Language
+
+### Hybrid Portmanteau
