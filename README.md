@@ -1,6 +1,9 @@
 # pages
 My Github pages.
 
+# New Location
+[I've Migrated](https://codeberg.org/LWFlouisa/Awasunu.git)
+
 # Purpose
 This is meant to serve as an artist portfolio for a game development career, it is not meant to promote general tech skills or artistic ability. I will also be blocking public contribution on this repository do to the epidemic of AI produced pull requests and other spam. I do not owe you a platform to misuse my infrastructure.
 
