@@ -1,4 +1,7 @@
 # Ignore all files in your novels and comics folders
+Illustrations/
+image/
+poetry/
 docs/
 prose/
 webcomics
