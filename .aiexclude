@@ -4,7 +4,8 @@ image/
 poetry/
 docs/
 prose/
-webcomics
+webcomics/
+prose/SideNovels
 
 # You can also ignore specific file types if needed
 *.css
