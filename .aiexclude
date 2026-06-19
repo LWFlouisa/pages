@@ -5,7 +5,10 @@ poetry/
 docs/
 prose/
 webcomics/
-prose/SideNovels
+webcomics/EarlyStoryboard/
+webcomics/UploadedFairy
+webcomics/UploadedFairyScript
+prose/SideNovels/
 
 # You can also ignore specific file types if needed
 *.css
