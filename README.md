@@ -7,6 +7,8 @@ My Github pages.
 # Purpose
 This is meant to serve as an artist portfolio for a game development career, it is not meant to promote general tech skills or artistic ability. I will also be blocking public contribution on this repository do to the epidemic of AI produced pull requests and other spam. I do not owe you a platform to misuse my infrastructure.
 
+Author Note: These webfiction and games are NOT about you. Mail getting angry that I'm not writing about you will be deleted unread and reported as spam.
+
 # Legal Notice: Intellectual Property
 Author Note: Stop changing the term on my license, how I wrote it is the final word:
 
