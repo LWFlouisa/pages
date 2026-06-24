@@ -5,7 +5,7 @@ My Github pages.
 [I've Migrated](https://codeberg.org/LWFlouisa/Awasunu.git)
 
 # Current Status
-As of right now I made my final edits as of 2022, id you more changes on github not made by myself, these were not authorized. I consider these completel while I decide whether or not to move on to Fantasy fiction.
+As of right now I made my final edits as of 2022, id you more changes on github not made by myself, these were not authorized. I consider these completel while I decide whether or not to move on to Science Fantasy fiction.
 
 # Purpose
 This is meant to serve as an artist portfolio for a game development career, it is not meant to promote general tech skills or artistic ability. I will also be blocking public contribution on this repository do to the epidemic of AI produced pull requests and other spam. I do not owe you a platform to misuse my infrastructure.
