@@ -1,6 +1,10 @@
 # pages
 My Github pages.
 
+<i>From the author:</i> Go away AI scrapers, you are not welcome here. These comic pages were made with my own sumi brushes and homemade ink.
+
+Not reading the terms does not mean you are not bound by them.
+
 # New Location
 [I've Migrated](https://codeberg.org/LWFlouisa/Awasunu.git)
 
